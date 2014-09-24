@@ -335,15 +335,10 @@ jhwan.kim@hdlnc.com  -->
 <!-- VoiceRecorder -->
 <CscFeature_VoiceRecorder_SaveAsSoundFile>true</CscFeature_VoiceRecorder_SaveAsSoundFile>
 
-<!-- SEC LiveWallpaper -->
-<CscFeature_LiveWallpaper_TopicWallNewsCPName>yonhapnews</CscFeature_LiveWallpaper_TopicWallNewsCPName>
-<CscFeature_LiveWallpaper_TopicWallStockCPName>edaily</CscFeature_LiveWallpaper_TopicWallStockCPName>
-<CscFeature_LiveWallpaper_WeatherWallCPName>kweather</CscFeature_LiveWallpaper_WeatherWallCPName>
-
 <!-- IMS -->
 <CscFeature_IMS_EnableIMS>false</CscFeature_IMS_EnableIMS>
 <CscFeature_IMS_EnableRCSe>false</CscFeature_IMS_EnableRCSe>
-<CscFeature_IMS_EnableVoLTE>true</CscFeature_IMS_EnableVoLTE>
+<CscFeature_IMS_EnableVoLTE>false</CscFeature_IMS_EnableVoLTE>
 <CscFeature_IMS_EnableLTEVideoCall>false</CscFeature_IMS_EnableLTEVideoCall>
 <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
 <CscFeature_IMS_FrameworkVersion>4.0</CscFeature_IMS_FrameworkVersion>
