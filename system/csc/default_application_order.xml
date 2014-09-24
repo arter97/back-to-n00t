@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+
+Copyright r(Cr) 2009 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License"
+you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+
+<appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+<!--T 서비스-->
+  <favorite packageName="com.sec.android.TService" className="com.sec.android.TService.TService" screen="0" />
+<!--최근기록-->
+  <favorite packageName="com.android.contacts" className="com.sec.android.app.contacts.RecntcallEntryActivity" screen="0" />
+<!--전화-->
+  <favorite packageName="com.android.contacts" className="com.android.contacts.activities.DialtactsActivity" screen="0" />
+<!--연락처-->
+  <favorite packageName="com.android.contacts" className="com.android.contacts.activities.PeopleActivity" screen="0" />
+<!--메시지-->
+  <favorite packageName="com.android.mms" className="com.android.mms.ui.ConversationComposer" screen="0" />
+<!--카메라-->
+  <favorite packageName="com.sec.android.app.camera" className="com.sec.android.app.camera.Camera" screen="0" />
+<!--갤러리-->
+  <favorite packageName="com.sec.android.gallery3d" className="com.sec.android.gallery3d.app.Gallery" screen="0" />
+<!--인터넷-->
+  <favorite packageName="com.android.browser" className="com.android.browser.BrowserActivity" screen="0" />
+<!--S플래너-->
+  <favorite packageName="com.android.calendar" className="com.android.calendar.AllInOneActivity" screen="0" />
+<!--S메모-->
+  <favorite packageName="com.sec.android.widgetapp.diotek.smemo" className="com.sec.android.widgetapp.q1_penmemo.MemoListActivity" screen="0" />
+<!--S보이스-->
+  <favorite packageName="com.vlingo.midas" className="com.vlingo.midas.gui.ConversationActivity" screen="0" />
+<!--DMB-->
+  <favorite packageName="com.sec.android.app.dmb" className="com.sec.android.app.dmb.activity.DMBFullScreenView" screen="0" />
+<!--T store-->
+  <favorite packageName="com.skt.skaf.A000Z00040" className="com.skt.skaf.A000Z00040.A000Z00040" screen="0" />
+<!--사이좋은앱-->
+  <favorite packageName="com.nate.android.applauncher" className="com.nate.android.applauncher.AppLauncherMainActivity" screen="0" />
+<!--뮤직-->
+  <favorite packageName="com.sec.android.app.music" className="com.sec.android.app.music.MusicActionTabActivity" screen="0" />
+<!--비디오-->
+  <favorite packageName="com.samsung.everglades.video" className="com.samsung.everglades.video.VideoMain" screen="0" />
+<!--Samsung Apps-->
+  <favorite packageName="com.sec.android.app.samsungapps" className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" screen="0" />
+<!--GALAXY Essentials-->
+  <favorite packageName="com.sec.android.app.moreservices" className="com.sec.android.app.moreservices.moreservices" screen="0" />
+<!--도움말-->
+  <favorite packageName="com.samsung.helphub" className="com.samsung.helphub.activity.HelpHubActivity" screen="0" />
+<!--환경설정-->
+  <favorite packageName="com.android.settings" className="com.android.settings.Settings" screen="0" />
+<!--쇼핑과 지갑-->
+  <favorite packageName="com.sec.android.TShoppingWallet" className="com.sec.android.TShoppingWallet.TShoppingWallet" screen="1" />
+<!--ChatON-->
+  <favorite packageName="com.sec.chaton" className="com.sec.chaton.HomeActivity" screen="1" />
+<!--리더스허브-->
+  <favorite packageName="com.sec.readershub" className="com.sec.readershub.bookshelf.view.main.activity.SplashActivity" screen="1" />
+<!--YouTube-->
+  <favorite packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" screen="1" />
+<!--T cloud-->
+  <favorite packageName="com.skt.tbagplus" className="com.skt.tbagplus.TcloudIntro" screen="1" />
+<!--hoppin-->
+  <favorite packageName="com.sktelecom.hoppin.mobile" className="com.sktelecom.pmdevice.home.PMDHome" screen="1" />
+<!--MelOn-->
+  <favorite packageName="com.iloen.melon" className="com.iloen.melon.MusicBrowserActivity" screen="1" />
+<!--T map-->
+  <favorite packageName="com.skt.skaf.l001mtm091" className="com.skt.tmap.activity.TmapIntroActivity" screen="1" />
+<!--Play 스토어-->
+  <favorite packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" screen="1" />
+<!--지도-->
+  <favorite packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" screen="1" />
+<!--Google-->
+  <favorite packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" screen="1" />
+<!--음성 검색-->
+  <favorite packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.VoiceSearchActivity" screen="1" />
+<!--Gmail-->
+  <favorite packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" screen="1" />
+<!--Google+-->
+  <favorite packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.HomeActivity" screen="1" />
+<!--Play 무비-->
+  <favorite packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" screen="1" />
+<!--Play 북-->
+  <favorite packageName="com.google.android.apps.books" className="com.google.android.apps.books.app.BooksActivity" screen="1" />
+<!--알람/시간-->
+  <favorite packageName="com.sec.android.app.clockpackage" className="com.sec.android.app.clockpackage.ClockPackage" screen="1" />
+<!--계산기-->
+  <favorite packageName="com.sec.android.app.popupcalculator" className="com.sec.android.app.popupcalculator.Calculator" screen="1" />
+<!--이메일-->
+  <favorite packageName="com.android.email" className="com.android.email.activity.Welcome" screen="1" />
+<!--음성 녹음-->
+  <favorite packageName="com.sec.android.app.voicerecorder" className="com.sec.android.app.voicerecorder.VoiceRecorderMainActivity" screen="1" />
+<!--Play 게임-->
+  <favorite packageName="com.google.android.play.games" className="com.google.android.gms.games.ui.destination.main.MainActivity" screen="2" />
+<!--행아웃-->
+  <favorite packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" screen="2" />
+<!--Chrome-->
+  <favorite packageName="com.android.chrome" className="com.google.android.apps.chrome.Main" screen="2" />
+<!--Google 설정-->
+  <favorite packageName="com.google.android.gms" className="com.google.android.gms.app.settings.GoogleSettingsActivity" screen="2" />
+<!--사진-->
+  <favorite packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.ConversationListActivity" screen="2" />
+<!--드라이브-->
+  <favorite packageName="com.google.android.apps.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" screen="2" />
+<!--다운로드-->
+  <favorite packageName="com.android.providers.downloads.ui" className="com.android.providers.downloads.ui.DownloadsListTab" screen="2" />
+<!--Paper Artist-->
+  <favorite packageName="com.dama.paperartist" className="com.dama.paperartist.PaperArtistActivity" screen="2" />
+<!--Dropbox-->
+  <favorite packageName="com.dropbox.android" className="com.dropbox.android.activity.DropboxBrowser" screen="2" />
+<!--앱가이드-->
+  <favorite packageName="com.skt.skaf.OA00197241" className="com.skt.skaf.OA00197241.Main" screen="2" />
+<!--T 멤버십-->
+  <favorite packageName="com.tms" className="com.tms.TMS_Splash" screen="2" />
+<!--원격 상담-->
+  <favorite packageName="com.skt.RInstallAgent" className="com.skt.RInstallAgent.RInstallAgent" screen="2" />
+<!--모바일 T world-->
+  <favorite packageName="Com.sktelecom.minit" className="Com.sktelecom.minit.IntroActivity" screen="2" />
+<!--11번가-->
+  <favorite packageName="com.elevenst" className="com.elevenst.intro.Intro" screen="2" />
+<!--스마트월렛-->
+  <favorite packageName="com.skt.skaf.OA00026910" className="com.skt.skaf.OA00026910.SmartWalletMain2" screen="2" />
+<!--네이트-->
+  <favorite packageName="com.nate.android.portalmini" className="com.nate.android.portalmini.Portal" screen="2" />
+<!--날씨-->
+  <favorite packageName="co.kr.kweather" className="co.kr.kweather.LoadActivity" screen="2" />
+<!--Group Play-->
+  <favorite packageName="com.samsung.groupcast" className="com.samsung.groupcast.start.StartActivity" screen="2" />
+<!--Samsung Link-->
+  <favorite packageName="com.sec.pcw" className="com.mfluent.asp.ui.MobileChargesNotificationActivity" screen="2" />
+<!--사전-->
+  <favorite packageName="com.sec.android.EDictionary" className="com.diotek.diodict3.phone.DioAuthActivity" screen="2" />
+<!--내 파일-->
+  <favorite packageName="com.sec.android.app.myfiles" className="com.sec.android.app.myfiles.MainActivity" screen="3" />
+<!--KNOX-->
+  <favorite packageName="com.sec.knox.setupwizardstub" className="com.sec.knox.setupwizardstub.SetupWizardStubActivity" screen="3" />
+<!--V3 Mobile 2.0-->
+  <favorite packageName="com.android.ahnmobilesecurity" className="com.ahnlab.msecurity2.v3mavmain.V3MAVMainActivity" screen="3" />
+<!--삼성전자 서비스센터-->
+  <favorite packageName="com.sec.android.app.anycallservicecenter" className="com.sec.android.app.anycallservicecenter.AnycallServiceCenterActivity" screen="3" />
+</appOrder>

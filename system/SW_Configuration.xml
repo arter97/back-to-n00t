@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SHV-E210S</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>E210SSKT</CSCName>
+	<CSCVersion>KNI3</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/SKT/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

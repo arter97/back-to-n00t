@@ -1,0 +1,60 @@
+﻿SVOXAUTOUSERPREPROC     = "OFF"
+SVOXAUTOUSERLEX         = "OFF"
+SVOXAUTOUSERPHONLEX     = "OFF"
+SVOXAUTOUSERLANGDETLEX  = "OFF"
+SVOXSENTANAEMISSIONMODE = "sentence"
+SVOXUSELEMISSIONMODE    = "sentence"
+
+
+PRELOADPATH = "/system/tts/lang_SVOXP/"
+DOWNLOADPATH = "sdcard/.SMT/"
+	
+VOICE "el-GR-l01-PRELOAD" (
+    SVOXLINGWAREPATH     = "${PRELOADPATH}"
+    SVOXMAINFILE         = "svox-eb0lt1el-GR22.pil"
+    SVOXEXTENSIONSCONFIG = "el-GR-doner-PRELOAD"
+    SVOXADDLINGWAREFILE  = "ldp_all.pil"
+    SVOXUSERPREPROC0     = "ppel-GR0.pil"
+    SVOXUSERLEX0         = "lxel-GR1.pil"
+)
+
+VOICE "el-GR-l01-DOWNLOAD" (
+    SVOXLINGWAREPATH     = "${DOWNLOADPATH}"
+    SVOXMAINFILE         = "svox-eb0lt1el-GR22.pil"
+    SVOXEXTENSIONSCONFIG = "el-GR-doner-DOWNLOAD"
+    SVOXADDLINGWAREFILE  = "ldp_all.pil"
+    SVOXUSERPREPROC0     = "ppel-GR0.pil"
+    SVOXUSERLEX0         = "lxel-GR1.pil"
+)
+
+VOICE "el-GR-l02-PRELOAD" (
+    SVOXLINGWAREPATH     = "${PRELOADPATH}"
+    SVOXMAINFILE         = "svox-eb0st0el-GR22.pil"
+    SVOXEXTENSIONSCONFIG = "el-GR-doner-PRELOAD"
+    SVOXADDLINGWAREFILE  = "ldp_all.pil"
+    SVOXUSERPREPROC0     = "ppel-GR0.pil"
+    SVOXUSERLEX0         = "lxel-GR1.pil"
+)
+
+VOICE "el-GR-l02-DOWNLOAD" (
+    SVOXLINGWAREPATH     = "${DOWNLOADPATH}"
+    SVOXMAINFILE         = "svox-eb0st0el-GR22.pil"
+    SVOXEXTENSIONSCONFIG = "el-GR-doner-DOWNLOAD"
+    SVOXADDLINGWAREFILE  = "ldp_all.pil"
+    SVOXUSERPREPROC0     = "ppel-GR0.pil"
+    SVOXUSERLEX0         = "lxel-GR1.pil"
+)
+
+DONER "el-GR-doner-PRELOAD" (
+    SVOXLINGWAREPATH = "${PRELOADPATH}"
+    SVOXMAINFILE     = "en-US_tl.pil"
+    SVOXUSERPREPROC1 = "ppel-GR1.pil"
+	SVOXUSERLEX1     = "lxel-GR2.pil"
+)
+
+DONER "el-GR-doner-DOWNLOAD" (
+    SVOXLINGWAREPATH = "${DOWNLOADPATH}"
+    SVOXMAINFILE     = "en-US_tl.pil"
+    SVOXUSERPREPROC1 = "ppel-GR1.pil"
+	SVOXUSERLEX1     = "lxel-GR2.pil"
+)

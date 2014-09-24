@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gid mapping for Remote Supporting PERMission. -->
+<permissions> 
+	<permission name="rsupport.permission.INPUT" > 
+		<group gid="input" /> 
+	</permission>
+	<permission name="rsupport.permission.GRAPHICS" > 
+		<group gid="graphics" /> 
+	</permission>
+	<permission name="rsupport.permission.BLUETOOTH" > 
+		<group gid="bluetooth" /> 
+	</permission>
+</permissions>
+
