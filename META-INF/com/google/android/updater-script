@@ -5,7 +5,7 @@ ui_print(" - formatting /system");
 unmount("/system");
 format("ext4", "EMMC", "/dev/block/mmcblk0p9", "0", "/system");
 run_program("/sbin/mount", "/system");
-show_progress(1.0, 2723);
+show_progress(1.34, 150);
 ui_print(" - extracting ROM files");
 package_extract_dir("system", "/system");
 ui_print(" - symlinking files");
@@ -171,6 +171,7 @@ set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fm
 ui_print(" - updating status");
 run_program("/sbin/sh", "-c", "cd /system && find . -exec touch {} \;");
 if getprop("ro.hardware") == "SHW-M440S"
+  then
   ui_print(" - flashing SHW-M440S kernel");
   package_extract_file("m440s.img", "/dev/block/mmcblk0p5");
 else
