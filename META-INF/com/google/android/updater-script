@@ -170,8 +170,13 @@ set_metadata("/system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.
 set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 ui_print(" - updating status");
 run_program("/sbin/sh", "-c", "cd /system && find . -exec touch {} \;");
-ui_print(" - flashing kernel");
-package_extract_file("boot.img", "/dev/block/mmcblk0p5");
+if getprop("ro.hardware") == "SHW-M440S"
+  ui_print(" - flashing SHW-M440S kernel");
+  package_extract_file("m440s.img", "/dev/block/mmcblk0p5");
+else
+  ui_print(" - flashing GT-I9300 kernel");
+  package_extract_file("i9300.img", "/dev/block/mmcblk0p5");
+endif;
 ui_print(" - tuning file systems");
 run_program("/sbin/mount", "/data");
 run_program("/sbin/mount", "/cache");
