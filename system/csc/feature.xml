@@ -28,7 +28,7 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_Camera_DefaultStorage>phone</CscFeature_Camera_DefaultStorage>
 <CscFeature_Camera_DefaultQuality>superfine</CscFeature_Camera_DefaultQuality>
 <CscFeature_Camcorder_DefaultQuality>superfine</CscFeature_Camcorder_DefaultQuality>
-<CscFeature_Camera_ShutterSoundMenu>false</CscFeature_Camera_ShutterSoundMenu>
+<CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
 <CscFeature_Camcorder_DoNotPauseMusic>false</CscFeature_Camcorder_DoNotPauseMusic>
 <CscFeature_Camera_SecurityMdmService>true</CscFeature_Camera_SecurityMdmService>
 <CscFeature_Camera_EnableSmsNotiPopup>true</CscFeature_Camera_EnableSmsNotiPopup>
