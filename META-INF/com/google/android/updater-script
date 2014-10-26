@@ -1,5 +1,5 @@
 ui_print(" ");
-ui_print("Installing back-to-n00t V3");
+ui_print("Installing back-to-n00t V4");
 ui_print(" ");
 ui_print(" - formatting /system");
 unmount("/system");
