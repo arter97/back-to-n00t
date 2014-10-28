@@ -175,6 +175,8 @@ if getprop("ro.hardware") == "SHW-M440S"
   then
   ui_print(" - flashing SHW-M440S kernel");
   package_extract_file("m440s.img", "/dev/block/mmcblk0p5");
+  ui_print(" - patching model name to SHW-M440S");
+  run_program("/sbin/sh", "-c", "busybox sed -i -e s/GT-I9300/SHW-M440S/g /system/build.prop");
 else
   ui_print(" - flashing GT-I9300 kernel");
   package_extract_file("i9300.img", "/dev/block/mmcblk0p5");
