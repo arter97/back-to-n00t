@@ -18,7 +18,6 @@
 /system/app/MobilePrintSvc_Samsung.apk
 /system/app/DualClockDigital42.apk
 /system/app/DualClockDigital.apk
-/system/app/SamsungWidget_FavoriteApp.apk
 /system/app/AnalogClockUnique.apk
 /system/app/EasySettings.apk
 /system/app/CoolEUKor.apk
@@ -45,7 +44,6 @@
 /system/app/MobilePrintSvc_CUPS.apk
 /system/app/MediaUploader.apk
 /system/app/PackageInstaller.apk
-/system/app/KWeather_Daemon_WN_2012.apk
 /system/app/SPrintSpooler2.apk
 /system/app/tca.apk
 /system/app/SCParser.apk
@@ -67,7 +65,6 @@
 /system/app/InputEventApp.apk
 /system/app/SamsungWidget_ActiveApplication.apk
 /system/app/PhotoTable.apk
-/system/app/VolteSettings.apk
 /system/app/SCONE_Android_ProxyService_NoPersistent.apk
 /system/app/SysScope.apk
 /system/app/SamsungAppsUNA3.apk
@@ -82,7 +79,6 @@
 /system/app/FixmoISA.apk
 /system/app/DMMonitor.apk
 /system/app/SecFactoryPhoneTest.apk
-/system/app/KorEmergencyReportHelper.apk
 /system/app/MDMApp.apk
 /system/app/WebManual.apk
 /system/app/SecurityProviderSEC.apk
@@ -135,7 +131,6 @@
 /system/priv-app/SetupWizard.apk
 /system/priv-app/Keystring_DFT.apk
 /system/priv-app/SecNoteMyFiles.apk
-/system/priv-app/SNS.apk
 /system/priv-app/SecVideoListUpg.apk
 /system/priv-app/SecCalendarProviderM0.apk
 /system/priv-app/SPPPushClient_Prod.apk
