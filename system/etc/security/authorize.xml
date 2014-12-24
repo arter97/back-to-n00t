@@ -2802,4 +2802,54 @@
 			<package name="com.android.chrome" seinfo="gtd" />
 		</method>
 	</service>
+
+	<service name="SdpManagerService">
+		<method name="systemReady">
+			<seinfo value="system" />
+		</method>
+		<method name="isSensitiveColumn">
+			<seinfo value="system" />
+			<seinfo value="_container" />
+		</method>
+		<method name="addColumn">
+			<seinfo value="system" />
+			<seinfo value="_container" />
+		</method>
+		<method name="onBoot">
+			<seinfo value="system" />
+		</method>
+		<method name="onDeviceLocked">
+			<seinfo value="system" />
+		</method>
+		<method name="onDeviceUnlocked">
+			<seinfo value="system" />
+		</method>
+		<method name="onChangePassword">
+			<seinfo value="system" />
+		</method>
+		<method name="onUserAdded">
+			<seinfo value="system" />
+		</method>
+		<method name="onUserRemoved">
+			<seinfo value="system" />
+		</method>
+		<method name="getState">
+			<seinfo value="_container" />
+		</method>
+		<method name="isSDPEnabled">
+			<seinfo value="_container" />
+		</method>
+		<method name="setSensitiveFileInfo">
+			<seinfo value="_container" />
+		</method>
+		<method name="setSensitiveDBInfo">
+			<seinfo value="_container" />
+		</method>
+		<method name="getSensitiveFileInfo">
+			<seinfo value="_container" />
+		</method>
+		<method name="getSensitiveDBInfo">
+			<seinfo value="_container" />
+		</method>
+	</service>
 </policy>

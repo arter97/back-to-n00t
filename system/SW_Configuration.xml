@@ -5,7 +5,7 @@
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>E210SSKT</CSCName>
-	<CSCVersion>KNI3</CSCVersion>
+	<CSCVersion>KNK3</CSCVersion>
 	<NbCustomer>1</NbCustomer>
 	<CustomerData src="/Customer/SKT/customer.xml" />
 	</CustomerDataSet>
