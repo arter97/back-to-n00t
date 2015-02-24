@@ -1,12 +1,18 @@
 <?xml  version="1.0" encoding="UTF-8" ?>
 <SW-Configuration>
 	<MobileData>
-	<PublicName>SHV-E210S</PublicName>
+	<PublicName>GT-I9300</PublicName>
 	</MobileData>
 	<CustomerDataSet>
 	<CSCName>E210SSKT</CSCName>
 	<CSCVersion>KNK3</CSCVersion>
-	<NbCustomer>1</NbCustomer>
-	<CustomerData src="/Customer/SKT/customer.xml" />
+	<NbCustomer>7</NbCustomer>
+	<CustomerData src="/Customer/CPW/customer.xml" />
+	<CustomerData src="/Customer/DBT/customer.xml" />
+	<CustomerData src="/Customer/ITV/customer.xml" />
+	<CustomerData src="/Customer/KOR/customer.xml" />
+	<CustomerData src="/Customer/XEO/customer.xml" />
+	<CustomerData src="/Customer/XEF/customer.xml" />
+	<CustomerData src="/Customer/BTU/customer.xml" />
 	</CustomerDataSet>
 </SW-Configuration>

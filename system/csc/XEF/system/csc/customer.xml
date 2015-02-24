@@ -1,0 +1,917 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED002</CSCEdition>
+    <Country>France</Country>
+    <SalesCode>XEF</SalesCode>
+    <NbNetworkInfo>19</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20801</MCCMNC>
+      <NetworkName>Orange F</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>F SFR</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64710</MCCMNC>
+      <NetworkName>SFR RU</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20820</MCCMNC>
+      <NetworkName>BOUYGTEL</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>NRJ (SFR)</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20801</MCCMNC>
+      <NetworkName>Virgin</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20801</MCCMNC>
+      <NetworkName>Tele2</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>Auchan</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20801</MCCMNC>
+      <NetworkName>Carrefour</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20801</MCCMNC>
+      <NetworkName>NRJ (ORANGE)</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34001</MCCMNC>
+      <NetworkName>Orange (340 01)</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64700</MCCMNC>
+      <NetworkName>Orange (647 00)</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>Simplicime</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>Leclerc</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>34020</MCCMNC>
+      <NetworkName>Digicel</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>CORIOLIS</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>64710</MCCMNC>
+      <NetworkName>CORIOLIS</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>Keyyo Mobile</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20810</MCCMNC>
+      <NetworkName>La Poste Mobile</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Network>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <MinuteMind>off</MinuteMind>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <DefLanguage>french</DefLanguage>
+        <DefLanguageNoSIM>french</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Security />
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>off</SSMS>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Index>1</Index>
+        <BookmarkName>Samsung Fun Club</BookmarkName>
+        <URL>http://www.samsungmobile.fr</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Yahoo!</BookmarkName>
+        <URL>http://m.yahoo.com/?tsrc=samsungbm</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>18</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange F</NetworkName>
+        <ProfBrowser>Orange WAP</ProfBrowser>
+        <ProfMMS>Orange MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfBrowser>SFR webphone</ProfBrowser>
+        <ProfMMS>SFR MMS</ProfMMS>
+        <ProfIntSharing>SFR option modem</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfBrowser>SRR Full Internet</ProfBrowser>
+        <ProfMMS>SRR MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>BOUYGTEL</NetworkName>
+        <ProfBrowser>Bouygtel WAP</ProfBrowser>
+        <ProfMMS>Bouygtel MMS</ProfMMS>
+        <ProfEmail>Bouygtel WAP</ProfEmail>
+        <ProfIntSharing>Bouygtel WAP</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NRJ (SFR)</NetworkName>
+        <ProfBrowser>NRJWEB</ProfBrowser>
+        <ProfMMS>NRJMMS</ProfMMS>
+        <ProfIntSharing>NRJWEB</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Virgin</NetworkName>
+        <ProfBrowser>VM WAP</ProfBrowser>
+        <ProfMMS>VM MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Tele2</NetworkName>
+        <ProfBrowser>Tele2 WAP</ProfBrowser>
+        <ProfMMS>Tele2 MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Carrefour</NetworkName>
+        <ProfBrowser>Carrefour WAP</ProfBrowser>
+        <ProfMMS>Carrefour MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Auchan</NetworkName>
+        <ProfBrowser>Auchan WAP</ProfBrowser>
+        <ProfMMS>Auchan MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NRJ (ORANGE)</NetworkName>
+        <ProfBrowser>NRJWEB</ProfBrowser>
+        <ProfMMS>NRJMMS</ProfMMS>
+        <ProfIntSharing>NRJWEB</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange (340 01)</NetworkName>
+        <ProfBrowser>Orange World Caraïbe</ProfBrowser>
+        <ProfMMS>Orange MMS Caraïbe</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange (647 00)</NetworkName>
+        <ProfBrowser>Orange World re</ProfBrowser>
+        <ProfMMS>Orange MMS Réunion</ProfMMS>
+        <ProfSyncDM>Orange World re</ProfSyncDM>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Simplicime</NetworkName>
+        <ProfBrowser>WAP Simplicime</ProfBrowser>
+        <ProfMMS>MMS Simplicime</ProfMMS>
+        <ProfIntSharing>WAP Simplicime</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Leclerc</NetworkName>
+        <ProfBrowser>WAP LeclercMobile</ProfBrowser>
+        <ProfMMS>MMS LeclercMobile</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Digicel</NetworkName>
+        <ProfBrowser>Digicel FR Wap</ProfBrowser>
+        <ProfMMS>Digicel FR MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CORIOLIS</NetworkName>
+        <ProfBrowser>Coriolis WAP</ProfBrowser>
+        <ProfMMS>Coriolis MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Keyyo Mobile</NetworkName>
+        <ProfBrowser>Keyyo Mobile Internet</ProfBrowser>
+        <ProfMMS>Keyyo Mobile MMS</ProfMMS>
+        <ProfIntSharing>Keyyo Mobile Internet</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>La Poste Mobile</NetworkName>
+        <ProfBrowser>WEB La Poste Mobile</ProfBrowser>
+        <ProfMMS>MMS La Poste Mobile</ProfMMS>
+        <ProfIntSharing>WEB La Poste Mobile</ProfIntSharing>
+      </ProfileHandle>
+      <NbProfile>40</NbProfile>
+      <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <ProfileName>Orange WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>orange</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange F</NetworkName>
+        <ProfileName>Orange MMS</ProfileName>
+        <URL>http://mms.orange.fr</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orange.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfileName>SFR webphone</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfileName>SFR mobile</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>195.115.25.129</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wapsfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfileName>SFR MMS</ProfileName>
+        <URL>http://mms1</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.151.0.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmssfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>F SFR</NetworkName>
+        <ProfileName>SFR option modem</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>websfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfileName>SRR Full Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>sl2sfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfileName>SRR WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.224.161</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wapsfr</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfileName>SRR MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.224.145</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmssfr</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SFR RU</NetworkName>
+        <ProfileName>SRR WEB</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>websfr</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BOUYGTEL</NetworkName>
+        <ProfileName>Bouygtel WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>mmsbouygtel.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BOUYGTEL</NetworkName>
+        <ProfileName>Bouygtel MMS</ProfileName>
+        <URL>http://mms.bouyguestelecom.fr/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>62.201.129.226</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsbouygtel.com</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NRJ (SFR)</NetworkName>
+        <ProfileName>NRJWEB</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>0</Port>
+        </Proxy>
+        <PSparam>
+          <APN>fnetnrj</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NRJ (SFR)</NetworkName>
+        <ProfileName>NRJMMS</ProfileName>
+        <URL>http://mmsnrj</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.143.156.5</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsnrj</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <ProfileName>VM WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ofnew.fr</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <ProfileName>VM MMS</ProfileName>
+        <URL>http://mms.orange.fr</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orange.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele2</NetworkName>
+        <ProfileName>Tele2 WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ofnew.fr</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Tele2</NetworkName>
+        <ProfileName>Tele2 MMS</ProfileName>
+        <URL>http://mms.orange.fr</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orange.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Carrefour</NetworkName>
+        <ProfileName>Carrefour WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ofnew.fr</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Carrefour</NetworkName>
+        <ProfileName>Carrefour MMS</ProfileName>
+        <URL>http://mms.orange.fr/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orange.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Auchan</NetworkName>
+        <ProfileName>Auchan WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.21.8</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap65</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Auchan</NetworkName>
+        <ProfileName>Auchan MMS</ProfileName>
+        <URL>http://mms65</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.143.156.8</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms65</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NRJ (ORANGE)</NetworkName>
+        <ProfileName>NRJWEB</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>0</Port>
+        </Proxy>
+        <PSparam>
+          <APN>ofnew.fr</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NRJ (ORANGE)</NetworkName>
+        <ProfileName>NRJMMS</ProfileName>
+        <URL>http://mms.orange.fr</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orange.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange (340 01)</NetworkName>
+        <ProfileName>Orange World Caraïbe</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.0.10</ServAddr>
+          <Port>8082</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orangewap</APN>
+          <UserId>orange</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange (340 01)</NetworkName>
+        <ProfileName>Orange MMS Caraïbe</ProfileName>
+        <URL>http://193.251.160.246/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.0.10</ServAddr>
+          <Port>8082</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orangewap</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange (647 00)</NetworkName>
+        <ProfileName>Orange World re</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>orangerun</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange (647 00)</NetworkName>
+        <ProfileName>Orange MMS Réunion</ProfileName>
+        <URL>http://mms.orange.re/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.200</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>orangerun.acte</APN>
+          <UserId>orange</UserId>
+          <Password>orange</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simplicime</NetworkName>
+        <ProfileName>WAP Simplicime</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.21.3</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wapdebitel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Simplicime</NetworkName>
+        <ProfileName>MMS Simplicime</ProfileName>
+        <URL>http://mmsdebitel</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.143.156.3</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsdebitel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Leclerc</NetworkName>
+        <ProfileName>WAP LeclercMobile</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.021.009</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap66</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Leclerc</NetworkName>
+        <ProfileName>MMS LeclercMobile</ProfileName>
+        <URL>http://mms66</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.143.156.9</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms66</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel</NetworkName>
+        <ProfileName>Digicel FR Wap</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.20.6.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelfr.com</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Digicel</NetworkName>
+        <ProfileName>Digicel FR MMS</ProfileName>
+        <URL>http://mmc.digicelfr.com/servlets/mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.20.6.12</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wap.digicelfr.com</APN>
+          <UserId>wap</UserId>
+          <Password>wap</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS</NetworkName>
+        <ProfileName>Coriolis WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.21.6</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wapcoriolis</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CORIOLIS</NetworkName>
+        <ProfileName>Coriolis MMS</ProfileName>
+        <URL>http://mmscoriolis</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.143.156.6</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmscoriolis</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Keyyo Mobile</NetworkName>
+        <ProfileName>Keyyo Mobile MMS</ProfileName>
+        <URL>http://mms68</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.143.156.011</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms68</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Keyyo Mobile</NetworkName>
+        <ProfileName>Keyyo Mobile Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet68</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>La Poste Mobile</NetworkName>
+        <ProfileName>WEB La Poste Mobile</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.021.003</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>wapdebitel</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>La Poste Mobile</NetworkName>
+        <ProfileName>MMS La Poste Mobile</ProfileName>
+        <URL>http://mmsdebitel</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>010.143.156.003</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsdebitel</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+    <Java>
+      <NbCertFile>2</NbCertFile>
+      <CertFile src="/Customer/XEF/JavaCert/Vodafone_OperatorDomain_CA.crt" certtype="op_domain">
+        <Position>1</Position>
+        <FileType>CRT</FileType>
+      </CertFile>
+      <CertFile src="/Customer/XEF/JavaCert/Vodafone_TopLevel_CA.crt" certtype="thirdp_domain">
+        <Position>2</Position>
+        <FileType>CRT</FileType>
+      </CertFile>
+    </Java>
+  </Settings>
+</CustomerData>

@@ -27,8 +27,8 @@
         launcher:y="1"
         launcher:spanX="4"
         launcher:spanY="3" />
-	    
-        <!-- EarPhone -->        
+
+        <!-- EarPhone -->
         <appwidget
         launcher:packageName="com.sec.android.app.music"
         launcher:className="com.sec.android.app.music.appwidget.MusicAppWidgetProvider"
@@ -38,9 +38,9 @@
         launcher:y="1"
         launcher:spanX="4"
         launcher:spanY="1" />
-		
+
         <appwidget
-        launcher:packageName="com.sec.android.app.videoplayer"        
+        launcher:packageName="com.sec.android.app.videoplayer"
         launcher:className="com.sec.android.app.videoplayer.appwidget.VideoWidget"
         launcher:screen="2"
         launcher:isContextualPage="1"
@@ -48,8 +48,8 @@
         launcher:y="2"
         launcher:spanX="4"
         launcher:spanY="2" />
-	
-        <!-- Dock -->    
+
+        <!-- Dock -->
         <appwidget
         launcher:packageName="com.sec.android.widgetapp.SPlannerAppWidget"
         launcher:className="com.sec.android.widgetapp.SPlannerAppWidget.AgendaWidget.CalendarAppWidgetProvider"
@@ -59,7 +59,7 @@
         launcher:y="1"
         launcher:spanX="4"
         launcher:spanY="2" />
-		
+
         <appwidget
         launcher:packageName="com.sec.android.app.music"
         launcher:className="com.sec.android.app.music.appwidget.MusicAppWidgetProvider"
@@ -69,8 +69,8 @@
         launcher:y="3"
         launcher:spanX="4"
         launcher:spanY="1" />
-        
-        <!-- Roaming -->        
+
+        <!-- Roaming -->
         <appwidget
         launcher:packageName="com.sec.android.widgetapp.dualclockanalog"
         launcher:className="com.sec.android.widgetapp.dualclockanalog.DualClockAppWidgetProvider"
@@ -79,17 +79,17 @@
         launcher:x="0"
         launcher:y="1"
         launcher:spanX="4"
-        launcher:spanY="2" /> 
+        launcher:spanY="2" />
         <!--
         launcher:spanX="4"
-        launcher:spanY="2" 
+        launcher:spanY="2"
         -->
-        
-    </home>    
-    
-    
+
+    </home>
+
+
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
-    
+
     <hotseat>
         <!-- S Pen -->
         <favorite
@@ -134,7 +134,7 @@
             launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
             launcher:screen="2"
             launcher:x="3" />
-    
+
         <!-- Dock -->
         <favorite
             launcher:packageName="com.sec.android.app.clockpackage"
@@ -178,6 +178,6 @@
             launcher:className="com.sec.android.widgetapp.q1_penmemo.MemoListActivity"
             launcher:screen="4"
             launcher:x="3" />
-        
+
     </hotseat>
 </favorites>

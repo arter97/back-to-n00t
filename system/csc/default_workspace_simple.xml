@@ -18,7 +18,7 @@
     <home>
         <!-- Far-left screen [0] -->
 
-        <!-- Far-left screen [1] -->      
+        <!-- Far-left screen [1] -->
         <appwidget
         launcher:packageName="com.sec.android.widgetapp.alarmclock"
         launcher:className="com.sec.android.widgetapp.alarmclock.ClockAlarmWidgetProvider"
@@ -27,27 +27,27 @@
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="2" />
-        
+
         <!-- Far-left screen [2] -->
         <sactivitywidget
-        launcher:packageName="com.sec.android.widgetapp.ap.hero.kweather.widget"       
-        launcher:className="com.sec.android.widgetapp.ap.hero.kweather.widget.KWeatherClock"      
+        launcher:packageName="com.sec.android.widgetapp.ap.hero.kweather.widget"
+        launcher:className="com.sec.android.widgetapp.ap.hero.kweather.widget.KWeatherClock"
         launcher:screen="2"
         launcher:x="0"
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="2" />
-        
+
         <appwidget
-        launcher:packageName="com.sec.android.widgetapp.favoriteswidget"       
-        launcher:className="com.sec.android.widgetapp.favoriteswidget.SeniorFavoriteWidgetProviderSmall"   
+        launcher:packageName="com.sec.android.widgetapp.favoriteswidget"
+        launcher:className="com.sec.android.widgetapp.favoriteswidget.SeniorFavoriteWidgetProviderSmall"
         launcher:screen="2"
         launcher:x="0"
         launcher:y="2"
         launcher:spanX="4"
-        launcher:spanY="2" />                
+        launcher:spanY="2" />
 
-        <!-- Far-left screen [3] -->  
+        <!-- Far-left screen [3] -->
         <appwidget
         launcher:packageName="com.sec.android.favoriteappwidget"
         launcher:className="com.sec.android.favoriteappwidget.FavoriteWidgetProvider"
@@ -56,8 +56,8 @@
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="4" />
-        
-        <!-- Far-left screen [4] -->  
+
+        <!-- Far-left screen [4] -->
         <appwidget
         launcher:packageName="com.android.settings"
         launcher:className="com.android.settings.favoritesettingswidget.FavoriteSettingsWidget"
