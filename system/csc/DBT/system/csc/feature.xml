@@ -24,6 +24,7 @@ jhwan.kim@hdlnc.com  -->
 <FeatureSet>
 
 <!-- Camera -->
+<CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
 
 <!-- Message -->
 <CscFeature_Message_ReplaceCRToNewLine>true</CscFeature_Message_ReplaceCRToNewLine>
